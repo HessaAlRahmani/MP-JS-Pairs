@@ -42,10 +42,7 @@ function pairs(names) {
 
   let name1;
   let name2;
-  if (names === []) {
-    pairedArray = [];
-    return pairedArray;
-  } else if (names === undefined) {
+  if (names === [] || names === undefined) {
     pairedArray = [];
     return pairedArray;
   } else {
